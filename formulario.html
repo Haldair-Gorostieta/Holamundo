@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>formularios</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1>Calcular la suma de 2 numeros </h1>
+	<form action="">
+		<label for ="numero1">Numero 1</label>
+			<input type="text" id="numero1"><br>
+		<label for="numero2">Numero 2</label>
+			<input type="text" id="numero2"><br>
+			<center><input type="button" value="Calcular" onclick="suma(numero1.value,numero2.value)"><br></center>
+			<div id="resultadoSuma"></div>
+			<!--resta-->
+			<h1>Calcular la resta de 2 numeros </h1>
+			<label for ="numero1">Numero 1</label>
+			<input type="text" id="numero3"><br>
+		<label for="numero2">Numero 2</label>
+			<input type="text" id="numero4"><br>
+			<center><input type="button" value="Calcular" onclick="res(numero3.value,numero4.value)"><br></center>
+			<div id="resultadoRes"></div>
+			<!--multiplicacion-->
+			<h1>Calcular la multiplicación de 2 numeros </h1>
+			<label for ="numero1">Numero 1</label>
+			<input type="text" id="numero5"><br>
+		<label for="numero2">Numero 2</label>
+			<input type="text" id="numero6"><br>
+			<center><input type="button" value="Calcular" onclick="mul(numero5.value,numero6.value)"><br></center>
+			<div id="resultadoMul"></div>
+			<!--divicion-->
+			<h1>Calcular la divición de 2 numeros </h1>
+			<label for ="numero1">Numero 1</label>
+			<input type="text" id="numero7"><br>
+		<label for="numero2">Numero 2</label>
+			<input type="text" id="numero8"><br>
+			<center><input type="button" value="Calcular" onclick="div(numero7.value,numero8.value)"><br></center>
+			<div id="resultadoDiv"></div>
+
+	</form>
+
+	<script src="js/form.js"></script>
+</body>
+</html>
